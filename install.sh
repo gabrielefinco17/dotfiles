@@ -11,3 +11,7 @@ brew bundle --file="$DOTFILES_DIR/Brewfile"
 echo "Stowing dotfiles..."
 cd "$DOTFILES_DIR"
 stow -v -t "$HOME" home
+
+# Apply macOS system preferences
+echo "Applying macOS preferences..."
+bash "$DOTFILES_DIR/macos.sh"
