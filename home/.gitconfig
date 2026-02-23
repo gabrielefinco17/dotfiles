@@ -1,7 +1,3 @@
 [user]
 	name = gabrielefinco17
 	email = 157897803+gabrielefinco17@users.noreply.github.com
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true

@@ -37,10 +37,12 @@
     },
     {
         "key": "cmd+r",
-        "command": "C_Cpp.BuildAndRunFile"
+        "command": "C_Cpp.BuildAndRunFile",
+        "when": "editorLangId == 'c' || editorLangId == 'cpp'"
     },
     {
         "key": "cmd+r",
-        "command": "python.execInTerminal-icon"
+        "command": "python.execInTerminal-icon",
+        "when": "editorLangId == 'python'"
     }
 ]
