@@ -1,0 +1,30 @@
+{
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.statusBar.visible": false,
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "python.createEnvironment.trigger": "off",
+    "workbench.editor.empty.hint": "hidden",
+    "C_Cpp.copilotHover": "disabled",
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+    "workbench.iconTheme": "glyph.legacy",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "claudeCode.preferredLocation": "panel",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "workbench.startupEditor": "none",
+    "vim.smartRelativeLine": true,
+    "editor.lineNumbers": "relative",
+    "python.languageServer": "Pylance"
+}
