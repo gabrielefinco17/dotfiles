@@ -18,13 +18,9 @@ fi
 echo "Installing Homebrew packages..."
 brew bundle --file="$DOTFILES_DIR/Brewfile"
 
-# Fetch submodules (nvim config, etc.)
-echo "Fetching submodules..."
-cd "$DOTFILES_DIR"
-git submodule update --init
-
 # Create symlinks using stow
 echo "Stowing dotfiles..."
+cd "$DOTFILES_DIR"
 stow -v --no-folding --adopt -t "$HOME" home
 
 # Install VS Code extensions (requires 'code' CLI in PATH)
