@@ -22,6 +22,7 @@ brew bundle --file="$DOTFILES_DIR/Brewfile"
 echo "Stowing dotfiles..."
 cd "$DOTFILES_DIR"
 stow -v --no-folding --adopt -t "$HOME" home
+git -C "$DOTFILES_DIR" checkout -- home/
 
 # Install VS Code extensions (requires 'code' CLI in PATH)
 if command -v code &>/dev/null; then
