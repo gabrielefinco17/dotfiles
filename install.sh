@@ -24,15 +24,6 @@ cd "$DOTFILES_DIR"
 stow -v --no-folding --adopt -t "$HOME" home
 git -C "$DOTFILES_DIR" checkout -- home/
 
-# Install VS Code extensions (requires 'code' CLI in PATH)
-if command -v code &>/dev/null; then
-  echo "Installing VS Code extensions..."
-  while IFS= read -r ext; do
-    [[ -z "$ext" || "$ext" == \#* ]] && continue
-    code --install-extension "$ext" --force
-  done < "$DOTFILES_DIR/vscode-extensions.txt"
-fi
-
 # Apply macOS system preferences
 echo "Applying macOS preferences..."
 bash "$DOTFILES_DIR/macos.sh"

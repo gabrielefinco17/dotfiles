@@ -1,3 +1,0 @@
-anthropic.claude-code
-github.github-vscode-theme
-vscodevim.vim
