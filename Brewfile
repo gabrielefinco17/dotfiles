@@ -1,24 +1,31 @@
-# Manages symlinks for dotfiles
-brew "stow"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
-# Ambitious Vim-fork focused on extensibility and agility
+brew "node"
+brew "gemini-cli"
+brew "mactop"
 brew "neovim"
-
-# Smooths scrolling and set mouse scroll directions independently
-cask "mos"
-# Rust-based terminal
-cask "warp"
-
-# Window manager — snap windows with keyboard shortcuts
-cask "rectangle"
-cask "google-chrome"
-cask "visual-studio-code"
-# Docker Desktop (engine + CLI + Compose); `brew "docker"` would be CLI-only
-cask "docker"
-cask "logi-options+"
+brew "pyenv"
+brew "stow"
+brew "uv"
+cask "aldente"
+cask "brave-browser"
+cask "claude-code"
+cask "docker-desktop"
+cask "font-jetbrains-mono"
+cask "karabiner-elements"
 cask "mamp"
+cask "mos"
 cask "obsidian"
+cask "osaurus"
+cask "protonvpn"
+cask "rectangle"
 cask "spotify"
+cask "visual-studio-code"
 cask "vlc"
+cask "warp"
 cask "zoom"
+vscode "bmewburn.vscode-intelephense-client"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "vscodevim.vim"
